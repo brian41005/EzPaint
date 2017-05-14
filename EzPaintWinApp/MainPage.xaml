@@ -1,0 +1,37 @@
+﻿<Page
+    x:Class="EzPaintWinApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EzPaintWinApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:Name="_winAppForm" Background="#FF7F2C2C" Margin="-5,0,5,0" MinWidth="1920" MinHeight="1080" MaxWidth="1920" MaxHeight="1080" VerticalAlignment="Center" HorizontalAlignment="Center">
+        <FlyoutBase.AttachedFlyout>
+            <Flyout>
+                <Grid Height="100" Width="100"/>
+            </Flyout>
+        </FlyoutBase.AttachedFlyout>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="63*"/>
+            <ColumnDefinition Width="65*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="121*"/>
+            <RowDefinition Height="95*"/>
+        </Grid.RowDefinitions>
+        <Canvas x:Name="_canvas" Margin="442,209,454,103" Background="White" Grid.RowSpan="2" Grid.ColumnSpan="2" PointerPressed="MouseDown" PointerReleased="MouseUp" PointerMoved="MouseMove" Height="600" Width="1024"/>
+        <StackPanel x:Name="_buttonPanel" Height="45" Margin="645,170,670,0" VerticalAlignment="Top" Orientation="Horizontal" Grid.ColumnSpan="2" Width="605" HorizontalAlignment="Center">
+            <Button x:Name="_undoButton" Content="Undo" HorizontalAlignment="Left" VerticalAlignment="Top" Background="{ThemeResource AppBarBackground}" Click="ClickUndo"/>
+            <Button x:Name="_redoButton" Content="Redo" HorizontalAlignment="Left" VerticalAlignment="Top" Background="{ThemeResource AppBarBackground}" Click="ClickRedo"/>
+            <Button x:Name="_rectangleButton" Content="Rectangle" HorizontalAlignment="Left" VerticalAlignment="Top" Background="{ThemeResource AppBarBackground}" Click="ClickRectangle"/>
+            <Button x:Name="_triangleButton" Content="Triangle" HorizontalAlignment="Left" VerticalAlignment="Top" Background="{ThemeResource AppBarBackground}" Click="ClickTriangle"/>
+            <Button x:Name="_circleButton" Content="Circle" HorizontalAlignment="Right" VerticalAlignment="Top" Background="{ThemeResource AppBarBackground}" Click="ClickCircle"/>
+            <Button x:Name="_lineButton" Content="Line" HorizontalAlignment="Right" VerticalAlignment="Top" Background="{ThemeResource AppBarBackground}" Click="ClickLine"/>
+            <Button x:Name="_saveButton" Content="Save" HorizontalAlignment="Right" VerticalAlignment="Top" Background="{ThemeResource AppBarBackground}" Click="ClickSave"/>
+            <Button x:Name="_UploadButton" Content="Upload to Google Drive" HorizontalAlignment="Right" VerticalAlignment="Top" Background="{ThemeResource AppBarBackground}" Click="ClickUpload"/>
+        </StackPanel>
+
+    </Grid>
+</Page>

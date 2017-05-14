@@ -1,0 +1,524 @@
+<html>
+  <head>
+    <title>Code Review :: </title>
+    <style type="text/css">
+    .body{background-color:White;}
+    .summary{width:100%;font-weight:bold;background-color:White;border: thin solid #808000;color:#FAFCFE}
+    .outer{font-weight:normal;color:#6D5757;background-color:#FFDFBF}
+    .inner{font-weight:normal;color:black;}
+    .reviewTable{border: thin solid #C0C0C0; width:100%}
+    .headerRow{color:white;background-color: #800000;font-weight:bold;text-align: center}
+    .reviewRow{background-color:#FFDFBF;color:black;}
+    .rAligned{text-align:right;}
+    .data{visibility:hidden}
+  </style>
+  </head>
+  <body class="body">
+    <div class="summary">
+      <table>
+        <tr>
+          <td colspan="3" class="headerRow">Review Summary</td>
+        </tr>
+        <tr class="outer">
+          <td>Project Name : <label class="inner" /></td>
+          <td>Reviewed By : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Project Code : <label class="inner" /></td>
+          <td>Reviewed Date : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Work Product Name : <label class="inner" /></td>
+          <td>Status : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Work Product Version : <label class="inner" /></td>
+          <td>Review Preparation Effort : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Work Product Size (ekloc) : <label class="inner" /></td>
+          <td>Review effort : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Work Product Release Date for Review : <label class="inner" /></td>
+          <td>Rework effort : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Review Action Taken By : <label class="inner" /></td>
+          <td>Review Efficiency : <label class="inner">NaN</label></td>
+        </tr>
+        <tr class="outer">
+          <td>Review Action Taken Date : <label class="inner" /></td>
+          <td />
+        </tr>
+      </table>
+      <table>
+        <tr class="headerRow">
+          <td colspan="2">Review Details</td>
+          <td colspan="2">Defect Status Analysis</td>
+          <td colspan="2">Defect Type Analysis</td>
+          <td colspan="4">Defect Injected Phase Analysis</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td>Major</td>
+          <td>Medium</td>
+          <td>Minor</td>
+        </tr>
+        <tr class="outer">
+          <td>Total No of Suggestions</td>
+          <td class="inner">0</td>
+          <td>Open</td>
+          <td class="inner">0</td>
+          <td>Logical</td>
+          <td class="inner">0</td>
+          <td>Initial Project Setup</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td>Total No of Errors</td>
+          <td class="inner">0</td>
+          <td>On Hold</td>
+          <td class="inner">0</td>
+          <td>Incomplete</td>
+          <td class="inner">0</td>
+          <td>Project Initiation</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td>Total</td>
+          <td class="inner">0</td>
+          <td>Closed</td>
+          <td class="inner">0</td>
+          <td>UI</td>
+          <td class="inner">0</td>
+          <td>Requirement Analysis</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td>Rejected</td>
+          <td class="inner">0</td>
+          <td>Exception Handling</td>
+          <td class="inner">0</td>
+          <td>Architecture and Design</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td>Documentation</td>
+          <td class="inner">0</td>
+          <td>Implementation</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td class="inner" />
+          <td>QA Testing</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td class="inner" />
+          <td>Transition Phase</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td class="rAligned">Total</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+      </table>
+    </div>
+    <br />
+    <table class="reviewTable">
+      <tr class="headerRow">
+        <td>#</td>
+        <td>Description</td>
+        <td>Status</td>
+        <td>DefectType</td>
+        <td>InjectedPhase</td>
+      </tr>
+    </table>
+    <div>
+      <br />
+    Created with <a href="http://visualstudiogallery.msdn.microsoft.com/d1e40c49-da36-42a5-8d5a-4ebe1feabbc9">ReviewPal</a></div>
+    <div class="data">
+      <Data id="ReviewPalData">
+        <CodeReview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+          <Reviews>
+            <Smell>
+              <Id>1</Id>
+              <SmellType>ICS(函式-1)</SmellType>
+              <HashCode>Method1.Point.operator +</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>Model</Project>
+              <File>Point.cs</File>
+              <Line>60</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>2</Id>
+              <SmellType>ICS(函式-2)</SmellType>
+              <HashCode>Method2.Point.operator +</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>Model</Project>
+              <File>Point.cs</File>
+              <Line>60</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>3</Id>
+              <SmellType>ICS(函式-1)</SmellType>
+              <HashCode>Method1.Point.operator -</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>Model</Project>
+              <File>Point.cs</File>
+              <Line>66</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>4</Id>
+              <SmellType>ICS(函式-2)</SmellType>
+              <HashCode>Method2.Point.operator -</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>Model</Project>
+              <File>Point.cs</File>
+              <Line>66</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>5</Id>
+              <SmellType>ICS(函式-1)</SmellType>
+              <HashCode>Method1.Point.operator *</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>Model</Project>
+              <File>Point.cs</File>
+              <Line>72</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>6</Id>
+              <SmellType>ICS(函式-2)</SmellType>
+              <HashCode>Method2.Point.operator *</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>Model</Project>
+              <File>Point.cs</File>
+              <Line>72</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>7</Id>
+              <SmellType>ICS(函式-1)</SmellType>
+              <HashCode>Method1.Point.operator *</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>Model</Project>
+              <File>Point.cs</File>
+              <Line>78</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>8</Id>
+              <SmellType>ICS(函式-2)</SmellType>
+              <HashCode>Method2.Point.operator *</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>Model</Project>
+              <File>Point.cs</File>
+              <Line>78</Line>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+          </Reviews>
+          <HashCodeIgnoreList>
+            <string>Method1.Point.operator +</string>
+            <string>Method2.Point.operator +</string>
+            <string>Method1.Point.operator -</string>
+            <string>Method2.Point.operator -</string>
+            <string>Method1.Point.operator *</string>
+            <string>Method2.Point.operator *</string>
+          </HashCodeIgnoreList>
+          <AnalysisFileManager>
+            <AnalysisFiles>
+              <AnalysisFile>
+                <RelativePath>Boundary.cs</RelativePath>
+                <ProjectName>Model</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Circle.cs</RelativePath>
+                <ProjectName>Model</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>CommandManager.cs</RelativePath>
+                <ProjectName>Model</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>DrawCommand.cs</RelativePath>
+                <ProjectName>Model</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ICommand.cs</RelativePath>
+                <ProjectName>Model</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>IGraphics.cs</RelativePath>
+                <ProjectName>Model</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Line.cs</RelativePath>
+                <ProjectName>Model</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model.cs</RelativePath>
+                <ProjectName>Model</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>MoveCommand.cs</RelativePath>
+                <ProjectName>Model</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Point.cs</RelativePath>
+                <ProjectName>Model</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\AssemblyInfo.cs</RelativePath>
+                <ProjectName>Model</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Rectangle.cs</RelativePath>
+                <ProjectName>Model</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Shape.cs</RelativePath>
+                <ProjectName>Model</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ShapeFactory.cs</RelativePath>
+                <ProjectName>Model</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Triangle.cs</RelativePath>
+                <ProjectName>Model</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>DoubleBufferedPanel.cs</RelativePath>
+                <ProjectName>EzPrintForm</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>EzPrintForm.cs</RelativePath>
+                <ProjectName>EzPrintForm</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>EzPrintForm.Designer.cs</RelativePath>
+                <ProjectName>EzPrintForm</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>GoogleDriveService.cs</RelativePath>
+                <ProjectName>EzPrintForm</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>PresentationModel.cs</RelativePath>
+                <ProjectName>EzPrintForm</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Program.cs</RelativePath>
+                <ProjectName>EzPrintForm</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\AssemblyInfo.cs</RelativePath>
+                <ProjectName>EzPrintForm</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\Resources.Designer.cs</RelativePath>
+                <ProjectName>EzPrintForm</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\Settings.Designer.cs</RelativePath>
+                <ProjectName>EzPrintForm</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>WindowsFormsGraphicsAdaptor.cs</RelativePath>
+                <ProjectName>EzPrintForm</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>App.xaml.cs</RelativePath>
+                <ProjectName>EzPaintWinApp</ProjectName>
+                <AnalysisFileType>Unknown</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>EzPresentationModel\PresentationModel.cs</RelativePath>
+                <ProjectName>EzPaintWinApp</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>EzPresentationModel\WindowsAppGraphicsAdaptor.cs</RelativePath>
+                <ProjectName>EzPaintWinApp</ProjectName>
+                <AnalysisFileType>Unknown</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>GoogleDriveServiceForApp.cs</RelativePath>
+                <ProjectName>EzPaintWinApp</ProjectName>
+                <AnalysisFileType>Unknown</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>MainPage.xaml.cs</RelativePath>
+                <ProjectName>EzPaintWinApp</ProjectName>
+                <AnalysisFileType>Unknown</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\AssemblyInfo.cs</RelativePath>
+                <ProjectName>EzPaintWinApp</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>BoundaryTests.cs</RelativePath>
+                <ProjectName>ModelTests</ProjectName>
+                <AnalysisFileType>Unknown</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>CircleTests.cs</RelativePath>
+                <ProjectName>ModelTests</ProjectName>
+                <AnalysisFileType>Unknown</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>CommandManagerTests.cs</RelativePath>
+                <ProjectName>ModelTests</ProjectName>
+                <AnalysisFileType>Unknown</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>DrawCommandTests.cs</RelativePath>
+                <ProjectName>ModelTests</ProjectName>
+                <AnalysisFileType>Unknown</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>LineTests.cs</RelativePath>
+                <ProjectName>ModelTests</ProjectName>
+                <AnalysisFileType>Unknown</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ModelTests.cs</RelativePath>
+                <ProjectName>ModelTests</ProjectName>
+                <AnalysisFileType>Unknown</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>MoveCommandTests.cs</RelativePath>
+                <ProjectName>ModelTests</ProjectName>
+                <AnalysisFileType>Unknown</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>PointTests.cs</RelativePath>
+                <ProjectName>ModelTests</ProjectName>
+                <AnalysisFileType>Unknown</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\AssemblyInfo.cs</RelativePath>
+                <ProjectName>ModelTests</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>RectangleTests.cs</RelativePath>
+                <ProjectName>ModelTests</ProjectName>
+                <AnalysisFileType>Unknown</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ShapeFactoryTests.cs</RelativePath>
+                <ProjectName>ModelTests</ProjectName>
+                <AnalysisFileType>Unknown</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ShapeTests.cs</RelativePath>
+                <ProjectName>ModelTests</ProjectName>
+                <AnalysisFileType>Unknown</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>TriangleTests.cs</RelativePath>
+                <ProjectName>ModelTests</ProjectName>
+                <AnalysisFileType>Unknown</AnalysisFileType>
+              </AnalysisFile>
+            </AnalysisFiles>
+          </AnalysisFileManager>
+          <ProductionLoc>2204</ProductionLoc>
+          <TestLoc>816</TestLoc>
+        </CodeReview>
+      </Data>
+    </div>
+  </body>
+</html>
